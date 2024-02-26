@@ -1,14 +1,32 @@
+/* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 800 */
+
+/* .open-sans-body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+} */
+
 body {
-    padding: 18px;
+    padding: 1.125rem;
+    font-family: 'Open Sans', system-ui, -apple-system, Roboto, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #DFF50A;
 }
 
-h1 {
-    font-weight: bold;
+header {
+    font-weight: 500;
     font-size: 2rem;
-    padding-bottom: 1.125rem;
+    font-optical-sizing: auto;
+    padding: 0 0 1.125rem 0;
+    font-variation-settings: "wdth" 100;
+    line-height: 1.125;
+    color: #200af5;
 }
 
 p {
     font-size: 1.125rem;
-    line-height: 1.15;
+    line-height: 1.2;
+    color: black;
 }
