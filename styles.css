@@ -1,7 +1,15 @@
+body {
+    padding: 18px;
+}
+
 h1 {
-    font-size: 2em;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-bottom: 8px;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.125rem;
+    line-height: 1.125;
 }
